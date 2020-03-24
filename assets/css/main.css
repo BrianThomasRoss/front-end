@@ -119,12 +119,6 @@ body {
     text-align: center;
 }
 
-.card {
-    border: none;
-    border-radius: .3rem;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-}
-
 /************************* 💻 Desktop Styling 💻 **************************/
 
 /* Top Card Section */
@@ -232,17 +226,15 @@ body {
 
 /* 🌎 Map and Graph 📊 Styling */
 .top-bar-us-map-heading-txt {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #ffffff;
     max-width: 61%;
-    margin-bottom: 1%;
 }
 
 .top-bottom-left-chart-title, .top-bottom-right-chart-title {
     font-size: 1.5rem;
     color: #ffffff;
     max-width: 100%;
-    margin-bottom: 1%;
 }
 
 .card-header-tabs{
@@ -300,29 +292,6 @@ body {
 
 /* 👈 Left  Twitter 🐦 News 📰 Feed Sidebar */
 
-.middle-map-news-content.mt-3.no-gutters.row {
-    margin-left: 1.2rem;
-    margin-right: 1rem;
-    border: none;
-}
-
-.jsx-2597805859.tab.left-twitter-tab {
-    border-top-left-radius: 0.3rem;
-    background-color: #010915;
-}
-
-.jsx-2597805859.tab.left-news-tab {
-    border-top-right-radius: 0.3rem;
-    
-}
-
-.jsx-2597805859.tab.left-twitter-tab.tab-selected {
-    background-color: #010915;
-}
-.jsx-2597805859.tab.left-twitter-tab.tab--selected {
-    background-color: blue;
-}
-
 /* get rid of tab padding */
 .card-header {
     max-width:100%;
@@ -332,14 +301,12 @@ body {
 
 .left-col-twitter-feed-content{
     margin-bottom: 1rem;
-    border-radius: .3rem;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* overflow disable scroll bar */
 .left-col-feed-cards-text {
     overflow-y: scroll;
-    height: 73.5vh;
+    height: 70.2vh;
     scroll-behavior: smooth;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
@@ -379,7 +346,7 @@ p.news-txt-by-dt{
 /* overflow disable scroll bar */
 .right-col-feed-cards-text {
     overflow-y: scroll;
-    height: 73.5vh;
+    height: 70.2vh;
     scroll-behavior: smooth;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
@@ -443,15 +410,10 @@ p.news-txt-by-dt{
 }
 
 
-.footer-social-copyright-content.col-2 {
-    /* margin-right: -5rem; */
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.footer-social-icons.mr-3 {
-    /* size: 10rem; */
-    margin-top: 1rem;
+.footer-social-copyright-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fab.fa-github {
@@ -464,6 +426,11 @@ p.news-txt-by-dt{
     text-align: center;
     color: #8B8D91;
 }
+
+
+
+
+
 
 /********************* 📱 MOBILE STYLING 📱 **********************/
 
@@ -686,7 +653,7 @@ p.news-txt-by-dt{
     margin-right: 1rem;
 }
 
-.mobile-footer-social-copyright-content.row {
+.mobile-footer-social-copyright-content .row {
     padding-bottom: 1.1rem;
 }
 
